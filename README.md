@@ -23,7 +23,7 @@ This project demonstrates essential data engineering skills including ETL design
     subscriber-pipeline/
     ├── data/
     │   └── raw/
-    │   └── cademycode.db # Raw input database
+    │       └── cademycode.db # Raw input database
     ├── notebooks/
     │   └── explore_cademycode_db.ipynb # Data exploration notebook
     ├── prod/
