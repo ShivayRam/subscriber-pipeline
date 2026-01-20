@@ -99,3 +99,5 @@ Use this script to manage your pipeline runs and promotion workflow.
 ```bash
 git clone https://github.com/<your-username>/subscriber-pipeline.git
 cd subscriber-pipeline
+python src/pipeline.py
+
