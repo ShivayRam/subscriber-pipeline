@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Logs
+logs/
+
+# SQLite output that can be recreated
+prod/*.sqlite
+prod/*.sqlite3
+
+# Environment folders
+venv/
+.env/
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor directories and configs
+.vscode/
+.idea/
