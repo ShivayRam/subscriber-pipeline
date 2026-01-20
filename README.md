@@ -20,22 +20,22 @@ This project demonstrates essential data engineering skills including ETL design
 
 ## 📁 Repository Structure
 
-subscriber-pipeline/
-├── data/
-│ └── raw/
-│ └── cademycode.db # Raw input database
-├── notebooks/
-│ └── explore_cademycode_db.ipynb # Data exploration notebook
-├── prod/
-│ ├── cademycode_cleansed.db # Cleansed database output
-│ └── cademycode_cleansed.csv # Cleansed CSV output
-├── src/
-│ └── pipeline.py # Main pipeline script
-├── tests/ # (Optional) Tests directory
-├── .gitignore # Files to ignore in Git
-├── changelog.md # Versioned pipeline changelog
-├── README.md # This file
-└── script.sh # Bash script to run & promote pipeline
+    subscriber-pipeline/
+    ├── data/
+    │   └── raw/
+    │   └── cademycode.db # Raw input database
+    ├── notebooks/
+    │   └── explore_cademycode_db.ipynb # Data exploration notebook
+    ├── prod/
+    │   ├── cademycode_cleansed.db # Cleansed database output
+    │   └── cademycode_cleansed.csv # Cleansed CSV output
+    ├── src/
+    │   └── pipeline.py # Main pipeline script
+    ├── tests/
+    ├── .gitignore
+    ├── changelog.md # Versioned pipeline changelog
+    ├── README.md # This file
+    └── script.sh # Bash script to run & promote pipeline
 
 ---
 
