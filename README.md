@@ -92,31 +92,7 @@ Use this script to manage your pipeline runs and promotion workflow.
 
 ---
 
-## 🤖 Setup & Execution
-
-### 📌 Clone the Repository
-
-```bash
-git clone https://github.com/<your-username>/subscriber-pipeline.git
-cd subscriber-pipeline
-pip install pandas numpy
-python src/pipeline.py
-jupyter notebook
-open: notebooks/explore_cademycode_db.ipynb
-Then select Restart & Run All to execute every cell in order.
-
-📊 What You’ll Experience:
-
-Raw data loaded from data/raw/cademycode.db
-Data cleaning and enrichment steps
-Visual analysis of missing vs. complete records
-Final cleansed dataset written to:
-
-prod/cademycode_cleansed.db
-prod/cademycode_cleansed.csv
-
-
-📌 Key Notes:
+## 📌 Key Notes:
 
 All paths in the pipeline and notebook use project-relative paths, so no manual path editing is required after cloning.
 This setup works whether you launch Jupyter locally, in VS Code, or another IDE.
